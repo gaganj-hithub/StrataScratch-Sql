@@ -1,1 +1,1 @@
-select distinct p.* from facebook_posts p inner join facebook_reactions r on p.post_id=r.post_id where r.reaction='heart';
+select id,first_name,last_name,department_id,max(salary)"current_salary" from ms_employee_salary group by id,first_name,last_name,department_id order by id;
