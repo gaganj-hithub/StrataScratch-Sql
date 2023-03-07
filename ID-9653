@@ -1,0 +1,1 @@
+select count(*),event_name from playbook_events where device='macbook pro' group by event_name order by count(*) desc  ;
