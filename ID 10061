@@ -1,0 +1,1 @@
+select e.location,avg(f.popularity) from facebook_employees e,facebook_hack_survey f where e.id=f.employee_id group by e.location;
