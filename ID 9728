@@ -1,0 +1,1 @@
+select year(inspection_date),count(*) from sf_restaurant_health_violations where business_name='Roxanne Cafe' and violation_id is not null group by year(inspection_date) order by year(inspection_date) asc;
