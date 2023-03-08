@@ -1,0 +1,1 @@
+select worker_title from worker w inner join title t on w.worker_ref_id=t.worker_ref_id where ;
