@@ -1,0 +1,1 @@
+select * from google_adwords_earnings where n_employees>10;
