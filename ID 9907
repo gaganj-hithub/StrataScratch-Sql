@@ -1,0 +1,1 @@
+select e.first_name from employee e inner join employee ee on e.manager_id=ee.id where e.manager_id<>1;
