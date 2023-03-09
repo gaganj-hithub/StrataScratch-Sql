@@ -1,0 +1,1 @@
+select count(*) from worker where department='admin' and month(joining_date)>=4
