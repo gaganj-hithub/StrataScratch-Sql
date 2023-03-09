@@ -1,0 +1,1 @@
+select * from worker where joining_date in (select joining_date from worker where year(joining_date)=2014 and month(joining_date)=2);
