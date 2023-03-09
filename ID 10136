@@ -1,0 +1,1 @@
+select * from worker where month(joining_date)=2 and mod(worker_id,2)=1;
