@@ -1,0 +1,1 @@
+select c.id,c.first_name,sum(o.total_order_cost) from customers c inner join orders o on c.id=o.cust_id group by c.id,c.first_name order by first_name;
