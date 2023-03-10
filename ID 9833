@@ -1,0 +1,1 @@
+select replace(first_name,'a','A') from worker;
