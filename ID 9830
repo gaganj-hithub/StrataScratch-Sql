@@ -1,0 +1,1 @@
+select rtrim(first_name) from worker_ws;
