@@ -1,0 +1,1 @@
+select * from worker where first_name='Vipul' or first_name='Satish' or last_name like '%c%';
