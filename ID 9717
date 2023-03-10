@@ -1,0 +1,1 @@
+select distinct business_name from sf_restaurant_health_violations where risk_category='low risk';
