@@ -1,0 +1,1 @@
+select division,player_name from college_football_teams c inner join college_football_players cc on c.school_name=cc.school_name;
