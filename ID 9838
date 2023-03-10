@@ -1,0 +1,1 @@
+select * from worker where first_name<>'Vipul' and first_name<>'Satish' and last_name not like'%c%';
