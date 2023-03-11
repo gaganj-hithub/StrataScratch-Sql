@@ -1,0 +1,1 @@
+select distinct qb,rate from qbstats_2015_2016 order by rate desc limit 10;
