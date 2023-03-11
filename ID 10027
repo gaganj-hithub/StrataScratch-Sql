@@ -1,0 +1,1 @@
+select count(*) from winemag_p1 where price>200;
