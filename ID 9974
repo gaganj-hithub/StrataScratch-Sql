@@ -1,0 +1,1 @@
+select employeename,benefits from sf_public_salaries where employeename like '%Patrick%';
