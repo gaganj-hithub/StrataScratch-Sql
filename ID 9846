@@ -1,0 +1,1 @@
+select concat(first_name,' ',last_name),salary from worker where salary between 50000 and 100000;
