@@ -1,0 +1,1 @@
+select distinct facility_name from los_angeles_restaurant_health_inspections where facility_zip in(90049,90034,90045);
