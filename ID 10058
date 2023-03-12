@@ -1,0 +1,1 @@
+select stars,count(review_text) from yelp_reviews where business_name="Lo-Lo's Chicken & Waffles" group by stars order by stars  ;
