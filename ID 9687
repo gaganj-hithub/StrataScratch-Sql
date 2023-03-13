@@ -1,0 +1,1 @@
+select * from oscar_nominees where (year between 2001 and 2009) and winner is true;
