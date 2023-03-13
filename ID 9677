@@ -1,0 +1,1 @@
+select count(*) from us_flights where unique_carrier='AA' and cancelled is true;
