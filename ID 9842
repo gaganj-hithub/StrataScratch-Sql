@@ -1,0 +1,1 @@
+select * from worker where length(first_name)=6 and first_name like '%h';
