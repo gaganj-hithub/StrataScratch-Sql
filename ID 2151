@@ -1,0 +1,1 @@
+select count(*) from employees where (month(joining_date) between 1 and 7) and year(joining_date)=2022;
