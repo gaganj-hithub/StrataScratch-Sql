@@ -1,0 +1,1 @@
+select count(*) from forbes_global_2010_2014 where country='United States';
