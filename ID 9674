@@ -1,0 +1,1 @@
+select distinct origin,dest,distance from us_flights order by distance desc limit 5;
