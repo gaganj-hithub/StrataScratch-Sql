@@ -1,0 +1,1 @@
+select service_name,status_of_order,sum(number_of_orders) from uber_orders group by 1,2;
