@@ -1,0 +1,1 @@
+select complaint_id from facebook_complaints where type=1 and processed is true;
