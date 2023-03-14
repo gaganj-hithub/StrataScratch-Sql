@@ -1,0 +1,1 @@
+select count(*) from facebook_friendship_requests where date_approved like '2019-01-02';
