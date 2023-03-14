@@ -1,0 +1,1 @@
+select feature_id,max(step_reached) from facebook_product_features_realizations group by 1;
