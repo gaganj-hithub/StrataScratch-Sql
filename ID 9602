@@ -1,0 +1,1 @@
+select * from hotel_reviews WHERE negative_review like '%dirty%';
