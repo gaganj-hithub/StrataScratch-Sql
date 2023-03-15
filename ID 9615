@@ -1,0 +1,1 @@
+select * from airbnb_search_details where accommodates=1 and property_type like '%apartment%';
