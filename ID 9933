@@ -1,0 +1,1 @@
+select distinct name from olympics_athletes_events where team like '%Denmark%' and medal is not null ;
