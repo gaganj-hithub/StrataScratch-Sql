@@ -1,0 +1,1 @@
+select year,sum(south+west+midwest+northeast) from housing_units_completed_us group by 1 order by 1; ;
