@@ -1,0 +1,1 @@
+select distinct business_name,date(inspection_date),inspection_score from sf_restaurant_health_violations where inspection_score<50;
