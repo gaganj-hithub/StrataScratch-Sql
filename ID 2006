@@ -1,0 +1,1 @@
+select day(post_date),count(*) from facebook_posts group by day(post_date);
