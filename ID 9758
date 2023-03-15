@@ -1,0 +1,1 @@
+select publisher,sum(total) from global_weekly_charts_2013_2014 group by publisher order by 2 desc;
