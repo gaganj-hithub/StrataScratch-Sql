@@ -1,0 +1,1 @@
+select variety,count(*) from iris group by 1;
