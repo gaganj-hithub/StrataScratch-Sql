@@ -1,0 +1,1 @@
+select day_of_week,count(*) from sf_crime_incidents_2014_01 group by 1;
