@@ -1,0 +1,1 @@
+select count(*),count(distinct facility_id),facility_zip from los_angeles_restaurant_health_inspections group by 3 order by 1 desc;
