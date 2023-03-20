@@ -1,0 +1,1 @@
+select * from airbnb_search_details where city in('SF') and cancellation_policy like '%flexible%' and review_scores_rating is not null order by review_scores_rating desc;
