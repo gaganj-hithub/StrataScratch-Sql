@@ -1,0 +1,1 @@
+select distinct variety from winemag_p1 where price between 5 and 20;
