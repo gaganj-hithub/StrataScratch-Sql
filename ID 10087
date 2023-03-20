@@ -1,0 +1,1 @@
+select distinct ff.* from facebook_reactions f inner join facebook_posts ff on f.post_id=ff.post_id where f.reaction='heart'
