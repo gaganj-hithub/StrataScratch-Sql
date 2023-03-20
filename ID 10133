@@ -1,0 +1,1 @@
+select COUNT(ts_accepted_at)/count(*)*100 from airbnb_contacts;
