@@ -1,0 +1,1 @@
+select address,pd_district,count(*) from sf_crime_incidents_2014_01 group by 1,2;
