@@ -1,0 +1,1 @@
+select count(*) from product_logins where year(login_date)=2016;
