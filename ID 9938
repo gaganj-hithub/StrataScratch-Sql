@@ -1,0 +1,1 @@
+select distinct event from olympics_athletes_events where season like '%winter%' and height between 180 and 210;
