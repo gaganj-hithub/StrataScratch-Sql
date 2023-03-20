@@ -1,0 +1,1 @@
+select ss.teacher,count(distinct s.student_id) from sat_scores s inner join sat_scores ss on s.id=ss.student_id group by 1;
