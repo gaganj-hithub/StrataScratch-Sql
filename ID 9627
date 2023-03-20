@@ -1,0 +1,1 @@
+select neighbourhood,avg(beds) from airbnb_search_details group by 1 having sum(beds)>=3 order by 2 desc;
