@@ -1,0 +1,1 @@
+select count(*) from library_usage where (total_renewals between 1 and 9) and circulation_active_month='April' and circulation_active_year=2015;
