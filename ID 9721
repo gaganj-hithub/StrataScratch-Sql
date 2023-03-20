@@ -1,0 +1,1 @@
+select business_name,inspection_score from sf_restaurant_health_violations where business_name like '%restaurant%'
