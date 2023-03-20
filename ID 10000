@@ -1,0 +1,1 @@
+select distinct year from uber_advertising where advertising_channel like '%celebrities%' and customers_acquired>2000;
