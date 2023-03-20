@@ -1,0 +1,1 @@
+select name,age,games from olympics_athletes_events where age<=18;
