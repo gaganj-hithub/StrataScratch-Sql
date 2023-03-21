@@ -1,0 +1,1 @@
+select name,count(*) from yelp_business where stars=1 group by name;
