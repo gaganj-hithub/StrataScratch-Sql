@@ -1,0 +1,1 @@
+select count(f.user1) from facebook_friends f inner join facebook_friends ff on f.user2=ff.user1 where f.user2<>1
