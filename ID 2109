@@ -1,0 +1,1 @@
+select d.prod_sku_id,d.market_name from fct_customer_sales f right join dim_product d on f.prod_sku_id=d.prod_sku_id where d.prod_sku_id not in(select prod_sku_id from fct_customer_sales)
