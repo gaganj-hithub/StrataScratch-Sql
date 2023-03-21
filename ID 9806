@@ -1,0 +1,1 @@
+select * from google_word_lists where words1 like 'g%' or words1 like '%,g%' or words2 like 'g%' or words2 like '%,g%' or words2 like '%,%,g%'
