@@ -1,0 +1,1 @@
+select noc,year from olympics_athletes_events where year in(select min(year) from olympics_athletes_events) order by year,noc ;
