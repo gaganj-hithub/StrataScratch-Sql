@@ -1,0 +1,1 @@
+select count(distinct claim_id) from cvs_claims where date_accepted is null and date_rejected is null and extract(year_month from date_submitted)=202112;
