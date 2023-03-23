@@ -1,0 +1,1 @@
+select distinct u.* from facebook_user_interactions u inner join facebook_user_interactions uu on u.user2=uu.user1 where u.day in(0,2) and u.user1=4
