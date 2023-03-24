@@ -1,0 +1,1 @@
+select date_format(started_at,'%Y-%m'),count(*) from noom_signups group by 1;
